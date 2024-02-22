@@ -1,0 +1,160 @@
+/* Write some CSS below */
+body{
+    color: rgb(1, 1, 20);
+    font-family: "Playfair Display", serif;
+}
+
+h1 {
+color: #474F7A;
+font-weight: bold;
+padding-top: 30px 5px;
+margin-top: -130px;
+}
+
+h2 {
+
+font-weight: bold;
+
+}
+
+.btn-check{
+background-color: #F5EEE6;
+color: rgb(1, 1, 20) ;
+padding: 10px 10px;
+border-radius: 5px;
+}
+
+
+.btn-card {
+    color: rgb(1, 1, 20);
+    font-family: "Playfair Display", serif; 
+    text-decoration: none;
+}
+
+a.btn-check{
+background-color:#f7f9fc ;
+text-decoration: none;
+font-weight: 700;
+
+}
+
+a:hover{
+    color: #535C91;
+}
+
+
+.banner {
+  min-height:100%;
+  background:linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://pvtistes.net/wp-content/uploads/2023/08/shutterstock_585776033-1900x800.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 180px 0px;
+}
+
+.second-title{
+letter-spacing: normal;
+margin-top: -10px;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+
+.card-white {
+    background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+    padding: 24px;
+    margin: 8px;
+  }
+  
+  .card-white img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .card-white h3 {
+    margin-bottom: 40px;
+    background-color: #F5F5F5;
+    padding: 5px 5px;
+    border-radius: 5px;  
+  }
+
+
+  .footer {
+    background: #535C91;
+    text-align: left;
+    margin-top: 30px;
+    padding: 24px 20px;
+  }
+  
+  .footer p {
+    color: white;
+  }
+
+.social-media-icon {
+
+color: #B4B4B8;
+transition: color 0.3s; transform: 0.3s;
+text-decoration: none;
+margin: 0px 10px;
+}
+
+.social-media-icon:hover {
+
+  color: #31304D;
+  transform: scale(1,7);
+
+
+}
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+  }
+
+  .social-media-icon ion-icon, .social-media-icon svg {
+    width: 25px;
+    height: 25px;
+  }
+
+
+  /* Cards media queries */
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
